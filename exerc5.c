@@ -10,11 +10,11 @@ int ** multiplyMatrix(int **piMatrix1, int **piMatrix2, int *iRow1, int *iCol1) 
 
 int main(void)
 {
-  int iRow1  = 0;
-  int iCol1  = 0;
+  int iRow1 = 0;
+  int iCol1 = 0;
 
-  int iRow2  = 0;
-  int iCol2  = 0;
+  int iRow2 = 0;
+  int iCol2 = 0;
 
   int **piMatrix1;
   int **piMatrix2;
@@ -98,11 +98,11 @@ int ** matrixAllocation(int *piRow, int *piCol)
 void verifyIfCanMult(int iRow1, int iRow2, int iCol1, int iCol2)
 {
   if(iRow1 != iRow2){
-    printf("Cannot multiply\n");
+    printf("Não é possível multiplicar\n");
     exit(0);
   }
   if(iCol1 != iCol2){
-    printf("Cannot multiply\n");
+    printf("Não é possível multiplicar\n");
     exit(0);
   }
 }
